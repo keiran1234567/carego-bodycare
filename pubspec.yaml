@@ -1,0 +1,29 @@
+name: bodycare_home_service
+description: UI Flutter untuk aplikasi booking privat BodyCare Home Service.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  provider: ^6.1.2
+  shared_preferences: ^2.5.3
+  image_picker: ^1.1.2
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
